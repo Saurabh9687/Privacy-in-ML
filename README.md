@@ -1,2 +1,3 @@
 # Privacy-in-ML
-Differentially Private Naive Bayes Classification
+# Differentially Private Naive Bayes Classification
+There is increasing awareness of the need to protect individual privacy in the training data used to develop machine learning models. Differential Privacy is a strong concept of protecting individuals. Naïve Bayes is a popular machine learning algorithm, used as a baseline for many tasks. In this work, I have provided a differentially private Naïve Bayes classifier that adds noise proportional to the smooth sensitivity of its parameters. I have compared my results to the research paper "Differentially Private Naive Bayes Classification" by Vaidya, Shafiq, Basu, and Hong which scales noise to the global sensitivity of the parameters. my experimental results on real-world datasets show that smooth sensitivity significantly improves accuracy while still guaranteeing ε-differential privacy.
